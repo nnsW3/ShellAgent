@@ -512,7 +512,7 @@ async def check_repo_status():
         # sort and get the latest 2 tags
         stable_tags = sorted(stable_tags, key=lambda x: [int(i) for i in x.split('/')[-1][1:].split('.')], reverse=True)[:2]
         preview_tags = sorted(preview_tags, key=lambda x: parse_version(x), reverse=True)[:2]
-        # remove the tags that is a prerelease
+        # remove the tags that are prerelease
         if os.environ.get('UPDATE_PRE_RELEASE', '0') != '1':
             print("update pre release is disabled")
             stable_tags = [tag for tag in stable_tags if not is_prerelease(tag.split('/')[-1])]
