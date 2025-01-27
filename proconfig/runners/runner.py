@@ -282,7 +282,7 @@ class Runner(BaseModel):
 
         with open(os.path.join(save_dir, f'{workflow.debug_uuid}.pkl'), 'wb') as file:
             cloudpickle.dump(data, file)
-            # since the file may be very large (> 20G?). Flush should be ensured here to gaurantee the save process complete
+            # since the file may be very large (> 20G?). Flush should be ensured here to guarantee the save process complete
             file.flush()           
             os.fsync(file.fileno()) 
         
