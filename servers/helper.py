@@ -41,7 +41,7 @@ async def helper_query(data: Dict):
         widget = GPTWidget()
         inputs = dict(
             model="gpt-4o",
-            system_prompt="You are a OCR detector, you will always faithfully extract the text in the input image",
+            system_prompt="You are an OCR detector, you will always faithfully extract the text in the input image",
             user_prompt="Please extract the text in the provided image:"
         )
         for image in images:
