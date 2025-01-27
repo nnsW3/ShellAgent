@@ -4,7 +4,7 @@
 
 ShellAgent is the most powerful, open, and modular Agentic Framework open-sourced by MyShell. It's deeply integrated into MyShell's ecosystem, allowing developers to build powerful AI Apps, publish to MyShell, and earn rewards.
 
-The current ShellAgent mode is on Windows Only, and requires a decent GPU to run. We will support Cloud and Mac version in the future. Due to limited server capability, Cloud version is only supported with limited developers. If you need Cloud version, please contact us with your past building experience, we will gradually open up more seats for developers who need Cloud version.
+The current ShellAgent mode is on Windows Only, and requires a decent GPU to run. We will support Cloud and Mac versions in the future. Due to limited server capability, Cloud version is only supported with limited developers. If you need Cloud version, please contact us with your past building experience, we will gradually open up more seats for developers who need Cloud version.
 
 The widget supports currently focus mainly on image generation relevant ones, we will make sure more widgets will be supported in Q4 2024.
 
@@ -22,7 +22,7 @@ You can find the download link for the ShellAgent installation package from the 
 
 The installation package includes the ShellAgent framework engine, commonly used widgets and models.
 
-After downloading, extract it locally to complete the installation. No need to handle environment issues.
+After downloading, extract it locally to complete the installation. No need to handle environmental issues.
 
 ### 3. Run ShellAgent
 
@@ -32,7 +32,7 @@ Click run.bat in the main directory, wait for the initialization to complete in 
 
 For ComfyUI users, ShellAgent supports importing models from local ComfyUI projects.
 
-Set the storage path (absolute path) of the models in settings, and we will merge the models of ShellAgent and the specified directory through symbolic links. After merging, the two directories are similar like shortcuts.
+Set the storage path (absolute path) of the models in settings, and we will merge the models of ShellAgent and the specified directory through symbolic links. After merging, the two directories are similar to shortcuts.
 
 ### Common Issues During Installation
 
